@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProgHome - Agence de Programmation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>ProgHome</h1>
+            <p>Agence de Programmation Web, Mobile et Jeux Vidéo</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#services">Nos Services</a></li>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h2>Bienvenue chez ProgHome</h2>
+        <p>Nous créons des solutions numériques sur mesure pour propulser votre entreprise.</p>
+        <button onclick="window.location.href='#contact'">Contactez-nous</button>
+    </section>
+
+    <section id="services">
+        <h2>Nos Services</h2>
+        <div class="service-item">
+            <h3>Développement Web</h3>
+            <p>Création de sites web modernes, dynamiques et responsive pour répondre à vos besoins.</p>
+        </div>
+        <div class="service-item">
+            <h3>Applications Mobiles</h3>
+            <p>Développement d'applications Android et iOS personnalisées pour vos projets mobiles.</p>
+        </div>
+        <div class="service-item">
+            <h3>Jeux Vidéo</h3>
+            <p>Création de jeux vidéo captivants pour tous les types de plateformes.</p>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>À propos de nous</h2>
+        <p>Chez ProgHome, nous sommes passionnés par la technologie et l'innovation. Notre équipe d'experts développe des solutions performantes et adaptées à vos besoins. Nous nous engageons à offrir un service de haute qualité pour vous accompagner tout au long de votre projet.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contactez-nous</h2>
+        <form id="contact-form">
+            <input type="text" id="name" placeholder="Votre nom" required>
+            <input type="email" id="email" placeholder="Votre email" required>
+            <textarea id="message" placeholder="Votre message" required></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+        <div id="form-message"></div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 ProgHome - Tous droits réservés</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
